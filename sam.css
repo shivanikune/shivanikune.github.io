@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50; /* Darker shade for text */
+    line-height: 1.6;
+    background-color: #ecf6f9; /* Light background for contrast */
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9; /* Blue color for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Styles */
+header {
+    background: #34495e; /* Darker blue background for navigation */
+    color: #fff;
+    padding: 15px 20px; /* Slightly more padding */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+/* Hero Section Styles */
+#hero {
+    background: #3498db; /* Hero background color */
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px; /* Slightly larger font for better readability */
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #d35400; /* Button color */
+    color: white;
+    padding: 12px 24px; /* Increased padding for a more substantial button */
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #d35400; /* Darker shade for hover effect */
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2980b9; /* Section heading color */
+}
+
+.section p {
+    margin-bottom: 20px;
+    max-width: 600px; /* Limit paragraph width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Projects Section Styles */
+.project-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    background: #69b6e2; /* White background for project cards */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    
+    transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.project:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #2980b9; /* Project title color */
+}
+
+.project h4 {
+    margin: 10px 0 5px;
+}
+
+/* Skills Section Styles */
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #2980b9; /* Skill card background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease; /* Animation on hover */
+}
+
+.skill:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.skill h4 {
+    margin: 10px 0 5px;
+}
+
+/* Contact Section Styles */
+.contact-info {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background: #34495e; /* Footer background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
